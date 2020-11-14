@@ -18,12 +18,12 @@ spring:
    username: root   # 数据库用户名
    password: a    # 数据库连接密码
  application:
-   name: microservice-config-provider-client
+   name: microservice-config-product-client
  profiles: dev
 
 logging:
   level:
-    com.yc.springcloud2.microserviceprovider: debug
+    com.yc.springcloud812: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
@@ -64,12 +64,12 @@ spring:
    username: root   # 数据库用户名
    password: a    # 数据库连接密码
  application:
-   name: microservice-config-providert-client
+   name: microservice-config-product-client
  profiles: beta
 
 logging:
   level:
-    com.yc.springcloud812.microserviceprovider: debug
+    com.yc.springcloud812: debug
 
 eureka:
   client: # 客户端进行Eureka注册的配置
