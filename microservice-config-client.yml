@@ -10,7 +10,11 @@ spring:
   profiles: dev
   application:
       name: microconfig-test-client222444
-
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 116.62.27.53
 eureka:
  client:
   service-url:
